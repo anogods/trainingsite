@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <title>About page</title>
+    <meta name="viewport" content="width=device-width", initial-scale=1.0> 
+    <meta charset="UTF-8">
+    
+    <body>
+    <p style="text-align: center;">
+        <img src="Logo.png" style=" max-width:60%;height:auto,">
+    </p>
+
+    <h1 style="color: green; text-align: center;font-family: Georgia, 'Times New Roman', Times, serif ;">Welcome To PRISCATECHNIX Training Site</h1>
+    
+
+
+    <!----Header Section-->
+    <h1 style="text-align: center; color:green; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Register With Us</h1>
+    
+    <p style="text-align: center; color:orange; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: large;">Please fill out the form to register</p>
+    
+
+    <!--Sign Up Section-->
+    <form action="action_page.php" method="get" autocomplete="on">
+        <fieldset style="background-color: rgb(204, 247, 184);"></style>
+            <legend style="background-color:green; color: aliceblue">Hello<Br> Fill in your details</legend><br><br>
+            <input type="text" id="Firstname" name="Firstname" placeholder="Firstname" required style="margin-right: 10%;">
+
+            <input type="text" id="Lastname" name="Lastname" placeholder="Lastname"required><br><br>
+
+            <input type="text" id="E-mail" name="E-mail" placeholder="Type your e-mail" required style="margin-right:  10%;">
+
+            <input type="tel" id="Phone" name="Phone" placeholder="Type your Phone Number" required><br><br>
+
+            <label for="Gender">Gender</label>
+            <input type="radio" id="Male" name="Gender" value="Male">Male
+            <input type="radio" id="female" name="gender" value="female">Female
+            <br><br>
+
+            <label for="birthday">Date of Birth:</label>
+             <input type="date" id="birthday" name="birthday"><br><br>
+
+             <label for="state">State of Origin:</label>
+             <select>
+                <option disabled selected>Select States</option>
+                <option value="Abia">Abia</option>
+                <option value="Adamawa">Adamawa</option>
+                    <option value="Akwa Ibom">Akwa Ibom</option>
+                    <option value="Anambra">Anambra</option>
+                    <option value="Bauchi">Bauchi</option>
+                    <option value="Bayelsa">Bayelsa</option>
+                    <option value="Benue">Benue</option>
+                    <option value="Borno">Borno</option>
+                    <option value="Cross River">Cross River</option>
+                    <option value="Delta">Delta</option>
+                    <option value="Ebonyi">Ebonyi</option>
+                    <option value="Edo">Edo</option>
+                    <option value="Ekiti">Ekiti</option>
+                    <option value="Enugu">Enugu</option>
+                    <option value="FCT">Federal Capital Territory</option>
+                    <option value="Gombe">Gombe</option>
+                    <option value="Imo">Imo</option>
+                    <option value="Jigawa">Jigawa</option>
+                    <option value="Kaduna">Kaduna</option>
+                    <option value="Kano">Kano</option>
+                    <option value="Katsina">Katsina</option>
+                    <option value="Kebbi">Kebbi</option>
+                    <option value="Kogi">Kogi</option>
+                    <option value="Kwara">Kwara</option>
+                    <option value="Lagos">Lagos</option>
+                    <option value="Nasarawa">Nasarawa</option>
+                    <option value="Niger">Niger</option>
+                    <option value="Ogun">Ogun</option>
+                    <option value="Ondo">Ondo</option>
+                    <option value="Osun">Osun</option>
+                    <option value="Oyo">Oyo</option>
+                    <option value="Plateau">Plateau</option>
+                    <option value="Rivers">Rivers</option>
+                    <option value="Sokoto">Sokoto</option>
+                    <option value="Taraba">Taraba</option>
+                    <option value="Yobe">Yobe</option>
+                    <option value="Zamfara">Zamfara</option>
+                </select><br><br>
+
+                Which Skill Would You Like To Learn?<br>
+                <input type="checkbox" id="python" name="python" value="Python">
+                <label for="python"> Python Programming</label><br>
+                <input type="checkbox" id="web" name="web" value="web">
+                <label for="web"> Web Design</label><br>
+                <input type="checkbox" id="data" name="data" value="data">
+                <label for="data"> Data Analysis</label><br>
+                <input type="checkbox" id="graphics" name=" Graphics Design" value=" Graphics Design">
+                <label for="Graphics">Graphics Design</label><br>
+                <input type="checkbox" id=" Photo" name="Photo" value="Photography">
+                <label for="Photo">Photography</label><br>
+                <input type="checkbox" id="T-Shirt" name="T-Shirt" value="T-Shirt">
+                <label for="T-Shirt">T-Shirt Customazing and Printing</label><br>
+                <Input type="checkbox" id="Basic Compter" name="Basic Computer" value="Basic Compter">
+                <label for="Basic Computer">Basic Computer Studies</label><br>
+                <input type="checkbox" id="Net" name="Net" value="Net">
+                <label for="Net">Networking</label><br>
+                <input type="checkbox" id="Cenema" name="Cenema" value="Cenema">
+                <label for="Cenema">Cenematography</label><br>
+                <input type="checkbox" id="Eng" name="Eng" value="Eng">
+                <label for="Engineering">Engineering</label><br><br>
+                
+
+                <label for="shirt">T-Shirt Size:</label>
+                <input type="radio" id="l" name="shirt" value="l">L
+                <input type="radio" id="xl" name="shirt" value="xl">XL
+                <input type="radio" id="xxl" name="shirt" value="xxl">2XL
+                <input type="radio" id="xxxl" name="shirt" value="xxxl">3XL
+                <br><br>
+
+                <label for="favcolor">Select your favourite Colour</label>
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+
+                <label for="myfile">Upload your documents:</label>
+                <input type="file" id="myfile" name="myfile" multiple><br>
+                <em style="font-size: 13px; color: rgb(2, 102, 27);">Documents needed are: O'Level any Gov't Issued ID &amp; Any other academic qualifications.</em><br><br>
+
+                <input type="url" id="social" name="social" placeholder="Twitter Profile Link"><br><br>
+
+                <input type="text" id="username" name="username" placeholder="Type Your Username" required style="margin-right: 10px;"><br><br>
+
+               <input type="password" id="password" name="password" placeholder="Type Your Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+               <input type="checkbox" onclick="myFunction()">Show Password
+               <br><br>
+
+               <textarea name="message" rows="10" cols="30" placeholder="Tell us why we should consider you for this programme"></textarea>
+               <br><br>
+
+               <input type="submit" value="Submit Form">
+               <input type="reset" value="Clear Form"><br><br>
+
+               <a href="index.html">Go Back To Home</a> 
+
+            </fieldset>
+            <br>
+
+            <!-- Footer Section -->
+            <footer style="text-align: center;">
+                Created by <a href="https://facebook.com/godswill.kelvin.9">Anosike Jnr</a> &copy; PRISCATECHNIX.  2023.<br><br>
+            </footer>
+            
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("password");
+                  if (x.type === "password") {
+                    x.type = "text";
+                  } else {
+                    x.type = "password";
+                  }
+                }
+                </script>
+
+            <hr>
+            
+        </form>
